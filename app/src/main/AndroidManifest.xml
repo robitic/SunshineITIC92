@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ut.itic92.sunshineitic92" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LunesMain"></activity>
+        <activity android:name=".MartesMain"></activity>
+        <activity android:name=".MiercolesMain"></activity>
+        <activity android:name=".JuevesMain"></activity>
+        <activity android:name=".ViernesMain"></activity>
+        <activity android:name=".SabadoMain"></activity>
+        <activity android:name=".DomingoMain"></activity>
+    </application>
+</manifest>

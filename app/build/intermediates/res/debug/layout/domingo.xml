@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/llover">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancun QRoo"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:text="10/06/2015"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="03:31 am"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:id="@+id/textView"
+                android:layout_weight="1"
+                android:layout_gravity="right"
+                android:textSize="@dimen/abc_text_size_large_material" />
+        </TableRow>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/lluvia" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temperatura"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:id="@+id/textView2"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:text="33°"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Humedad"
+                android:id="@+id/textView3"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:text="40%"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:text="Precion"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:id="@+id/textView4"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:text="1015 MB"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:text="Vientos"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_weight="1"
+                android:text="ENE 6 km/h"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout><!-- From: file:/C:/Users/rob/AndroidStudioProjects/SunshineITIC92/app/src/main/res/layout/domingo.xml -->
